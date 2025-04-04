@@ -331,7 +331,6 @@ const Home = () => {
         <BannerText>Encontre os melhores produtos com os melhores preços!</BannerText>
         <BannerButton to="/products">Ver Produtos</BannerButton>
       </Banner>
-      
       <div style={{ flex: 1, width: '100%', padding: '2rem 0' }}>
         <h2 style={{ marginBottom: '2rem' }}>Produtos em Destaque</h2>
         <CarouselContainer>

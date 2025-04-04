@@ -315,7 +315,6 @@ const Checkout = () => {
       </Container>
     );
   }
-
   return (
     <Container>
       <CheckoutTitle>Finalizar Compra</CheckoutTitle>
@@ -469,7 +468,6 @@ const Checkout = () => {
                 </ItemPrice>
               </CartItem>
             ))}
-
             <TotalPrice>
               <span>Total:</span>
               <PriceValue>R$ {totalPrice}</PriceValue>
