@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
-import { FaHeart, FaShoppingCart, FaHome, FaBoxOpen, FaBars, FaTimes, FaTruck, FaSmile } from "react-icons/fa";
+import { FaStar, FaHeart, FaShoppingCart, FaHome, FaBoxOpen, FaBars, FaTimes, FaTruck, FaSmile } from "react-icons/fa";
 import logoImage from "../assets/logo.png";
 
 const breakpoints = {
@@ -175,7 +175,7 @@ const Navbar = () => {
             <FaBoxOpen /> Produtos
           </StyledLink>
           <StyledLink to="/wishlist" onClick={closeMenu}>
-            <FaHeart /> Wishlist
+            <FaStar /> Wishlist
           </StyledLink>
           <StyledLink to="/cart" onClick={closeMenu}>
             <FaShoppingCart /> Carrinho
